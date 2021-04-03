@@ -1,0 +1,21 @@
+.services h1{
+    margin-left: 35px;
+}
+.services__content{
+    margin: 40px 0;
+    .services__items{
+        width: 210px;
+        margin: 0 auto;
+        transition: .5s;
+        position: relative;
+        &:hover{
+            opacity: 0.8;
+        }
+        .services__details{
+            position: absolute;
+            top: 15px;
+            left: 5px;
+            color: white;
+        }
+    }   
+}

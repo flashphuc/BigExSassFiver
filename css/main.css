@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  margin: 0;
+}
+
+.udebtn-white {
+  background-color: #fff;
+  border: 1px solid #686f7a;
+  border-radius: 2px;
+  padding: 11px 12px;
+  color: #686f7a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.udebtn-white:hover {
+  background-color: #fff;
+  border: 1px solid #29303b;
+  color: #29303b;
+}
+
+.udebtn-red {
+  background-color: #ec5252;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 11px 12px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.udebtn-red:hover {
+  background-color: #992337;
+  border: 1px solid #992337;
+  color: #fff;
+}
+
+.navbar__fiver {
+  padding: 2rem;
+}
+
+.navbar__fiver .form-inline {
+  position: relative;
+}
+
+.navbar__fiver .form-inline .form-control {
+  padding: 0rem 2rem;
+  padding-right: 10rem;
+  border: solid 1px #ddd;
+  border-radius: 0;
+  margin-right: 0 !important;
+}
+
+.navbar__fiver .form-inline .form-control:focus {
+  box-shadow: none;
+  border: solid 1px black;
+}
+
+.navbar__fiver .form-inline button {
+  border-radius: 0;
+}
+
+.navbar__fiver .form-inline i.header__icon {
+  position: absolute;
+  left: 2%;
+  color: gray;
+}
+
+.navbar__fiver .fiver__header li a {
+  font-size: 1.2rem;
+  font-weight: 600px;
+  color: #7a7d85;
+}
+
+.navbar__fiver .fiver__header li a:hover {
+  color: #1dbf73 !important;
+}
+
+.navbar__fiver #fiver-pro {
+  color: #1fd0b6;
+}
+
+.navbar__fiver #fiver-pro:hover {
+  color: #6ce9d7 !important;
+}
+
+.carousel__fiver {
+  position: relative;
+}
+
+.carousel__fiver video {
+  height: 10%;
+  width: 100%;
+}
+
+.carousel__fiver .carousel__contain {
+  text-align: center;
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel__fiver .carousel__contain h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.carousel__fiver .carousel__contain p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.carousel__fiver .carousel__content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel__fiver .carousel__content .carousel__container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.carousel__fiver .carousel__content .carousel__container .carousel__details {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.carousel__fiver .carousel__content .carousel__container .carousel__details h1 {
+  font-weight: bold;
+}
+
+.join__fiver h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.join__fiver .join__personal {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.join__fiver .join__personal .join__framwork:hover .fiver__just::before {
+  opacity: 1;
+}
+
+.join__fiver .join__personal .join__content {
+  padding: 0 20px 30px;
+}
+
+.join__fiver .join__personal .join__content a {
+  position: relative;
+}
+
+.join__fiver .join__personal .join__content .fiver__just {
+  background-image: url(../img/designer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 352px;
+  position: relative;
+}
+
+.join__fiver .join__personal .join__content .fiver__just::before {
+  content: "";
+  background-color: rgba(34, 20, 20, 0.823);
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.join__fiver .join__personal .join__content .join__contain1 {
+  background-image: url(../img/developer.png);
+}
+
+.join__fiver .join__personal .join__content .join__contain2 {
+  background-image: url(../img/Writer.png);
+}
+
+.join__fiver .join__personal .join__content .join__contain3 {
+  background-image: url(../img/videoEditor.png);
+}
+
+.join__fiver .join__personal .join__content .join__contain4 {
+  background-image: url(../img/musician.png);
+}
+
+.join__fiver .join__personal .join__content .join__contain5 {
+  background-image: url(../img/artist.png);
+}
+
+.join__fiver .join__personal .join__content .join__contain6 {
+  background-image: url(../img/marketer.png);
+}
+
+.join__fiver .join__personal .join__content .seller {
+  cursor: pointer;
+}
+
+.join__fiver .join__personal .join__content .seller .join__contain7 {
+  background-image: none;
+  background-color: #eee;
+  text-align: center;
+  position: relative;
+}
+
+.join__fiver .join__personal .join__content .seller .join__details2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.join__fiver .join__personal .join__content .seller .join__details2 i {
+  color: red;
+}
+
+.join__fiver .join__personal .join__content .seller:hover .join__contain7::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content .join__details {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.join__fiver .join__personal .join__content a.designer:hover .join__contain {
+  background-position: -10% 0;
+}
+
+.join__fiver .join__personal .join__content a.designer:hover .join__contain::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.developer:hover .join__contain1 {
+  background-position: -10% 0;
+}
+
+.join__fiver .join__personal .join__content a.developer:hover .join__contain1::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.writer:hover .join__contain2 {
+  transform: translateX(5%);
+}
+
+.join__fiver .join__personal .join__content a.writer:hover .join__contain2::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.editor:hover .join__contain3 {
+  transform: translateX(5%);
+}
+
+.join__fiver .join__personal .join__content a.editor:hover .join__contain3::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.musician:hover .join__contain4 {
+  transform: translateX(5%);
+}
+
+.join__fiver .join__personal .join__content a.musician:hover .join__contain4::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.artist:hover .join__contain5 {
+  transform: translateX(5%);
+}
+
+.join__fiver .join__personal .join__content a.artist:hover .join__contain5::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal .join__content a.marketer:hover .join__contain6 {
+  transform: translateX(5%);
+}
+
+.join__fiver .join__personal .join__content a.marketer:hover .join__contain6::before {
+  opacity: 0;
+}
+
+.join__fiver .join__personal img {
+  width: 295px;
+  height: 304px;
+}
+
+.works__fiver {
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+.works__fiver h1 {
+  font-size: 4rem;
+}
+
+.works__fiver .works__content {
+  text-align: center;
+}
+
+.works__fiver .works__content i {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.learn__fiver {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.learn__fiver .learn__contain {
+  background-color: #f7f7f7;
+  padding: 2rem;
+}
+
+.learn__fiver .learn__contain .learn__content__left {
+  padding: 3rem 0;
+  line-height: 2rem;
+}
+
+.learn__fiver .learn__contain .learn__fiver__right {
+  position: relative;
+}
+
+.learn__fiver .learn__contain .learn__fiver__right i.learn__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  border: solid 1px white;
+  border-radius: 50%;
+  color: white;
+  background-color: #1413139e;
+}
+
+.learn__fiver .learn__contain .learn__fiver__right .learn__fiver__details {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  padding-right: 14rem;
+  color: white;
+}
+
+.learn__fiver .learn__contain .learn__fiver__right .learn__fiver__details .learn__rating .learn__rating__star {
+  color: #f4c150;
+}
+
+.learn__fiver .learn__contain .learn__fiver__right .learn__fiver__details .learn__rating .rating__1 {
+  color: #f4c150;
+}
+
+.buyer__contain {
+  background: #f7f7f7;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.buyer__contain .buyer__details {
+  padding: 0%;
+}
+
+.buyer__contain .buyer__details .buyer__content {
+  color: #62646a;
+  padding: 6rem 3rem;
+}
+
+.buyer__contain .buyer__details .buyer__content h5 {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.buyer__contain .buyer__details img {
+  width: 100%;
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+
+.qa__contain {
+  margin: 1rem 0;
+}
+
+.introduce__fiver {
+  background: wheat;
+  padding: 5rem;
+  text-align: center;
+}
+
+footer {
+  border-top: solid 0.2px black;
+}
+
+footer .footer__fiver {
+  margin: 2rem;
+}
+
+footer .footer__fiver .footer__left {
+  display: flex;
+}
+
+footer .footer__fiver .footer__left p {
+  line-height: 40px;
+  margin-left: 2rem;
+}
+
+footer .footer__fiver .footer__left span a {
+  color: #62646a;
+}
+
+footer .footer__fiver .footer__right {
+  color: #62646a;
+  padding: 0.5rem 10rem;
+  font-size: 1.5rem;
+}
+
+footer .footer__fiver .footer__right span {
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+footer .footer__fiver .footer__right span a {
+  text-decoration: none;
+  color: #62646a;
+}
+/*# sourceMappingURL=main.css.map */

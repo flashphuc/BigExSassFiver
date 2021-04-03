@@ -1,0 +1,47 @@
+// variable color
+$color-green-1: #1dbf73;
+$color-green-2: #19a463;
+$color-green-3: #daeeda;
+$color-gray-1: #62646a;
+$color-black-1: #023a15;
+$color-blue-0: #1E90FF;
+$color-blue-1: #584aff;
+$color-blue-2: #0d084d;
+$color-white-0: #fff; 
+$color-trans:transparent;
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+// variable font-size
+$fs-0: 15px; //default
+$fs-1: 13px;
+$fs-2: 20px;
+$fs-3: 24px;
+
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 25px;
+
+//variable border-radius
+$border-radius-1: 2px;
+$border-radius-2: 20px;
+
+//variable padding
+$pd-0: 5px; //default
+$pd-1: 10px;
+$pd-2: 20px;
+$pd-3: 11px;
+$pd-4: 12px;
+
+//break points
+$breakpoints:(
+    'extra-large': 1200px,
+    'large' : 992px,
+    'medium' : 768px,
+    'small' : 576px,
+)

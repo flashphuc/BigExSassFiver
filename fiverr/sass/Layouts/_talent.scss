@@ -1,0 +1,11 @@
+.talent__content{
+    width: 92%;
+    margin: 0 auto;
+    position: relative;
+    .talent__details{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        color: $color-white-0;
+    }
+}

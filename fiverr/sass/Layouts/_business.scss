@@ -1,0 +1,18 @@
+.business{
+    background-color: $color-blue-2;
+    padding: 40px 0;
+}
+.business__content{
+    display: flex;
+    margin: 30px 5%;
+    .business__items{
+        color: $color-white-0;
+        span{
+            font-size: 15px;
+            border: 1px solid $color-blue-1;
+            padding: 1px 10px;
+            border-radius: 50%;
+            background: $color-blue-1;
+        }
+    }
+}

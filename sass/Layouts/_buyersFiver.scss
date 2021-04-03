@@ -1,0 +1,27 @@
+.buyer__contain {
+  background: #f7f7f7;
+  width: 90%;
+  margin: 0 auto;
+  .buyer__details {
+    padding: 0%;
+    .buyer__content {
+      color: #62646a;
+      padding: 6rem 3rem;
+      h5 {
+        font-style: italic;
+        margin-bottom: 2rem;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}

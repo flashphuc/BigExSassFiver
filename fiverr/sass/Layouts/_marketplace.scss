@@ -1,0 +1,28 @@
+.marketplace{
+    color: $color-gray-1;
+    .marketplace__content{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 70%;
+        margin: 0 auto;
+        grid-gap: 20px;
+        .marketplace__items{
+            text-align: center;
+            line-height: 10px;
+            img{
+                width: 50px;
+            }
+            hr{
+                margin-left: 100px;
+                border-top: 2px solid rgba(0,0,0,.1);
+                transition: .5s;
+                &:hover{
+                    width: 90px;
+                    margin-left: 83px;
+                    border-top: 2px solid $color-green-2;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

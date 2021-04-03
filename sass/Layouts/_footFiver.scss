@@ -1,0 +1,31 @@
+footer {
+  border-top: solid 0.2px black;
+  .footer__fiver {
+    margin: 2rem;
+    .footer__left {
+      p {
+        line-height: 40px;
+        margin-left: 2rem;
+      }
+      display: flex;
+      span a {
+        color: #62646a;
+      }
+    }
+    .footer__right {
+      color: #62646a;
+      padding: 0.5rem 10rem;
+      font-size: 1.5rem;
+      span {
+        // border: 2px solid black;
+        // border-radius: 50%;
+        cursor: pointer;
+        margin: 0 0.5rem;
+        a {
+          text-decoration: none;
+          color: #62646a;
+        }
+      }
+    }
+  }
+}

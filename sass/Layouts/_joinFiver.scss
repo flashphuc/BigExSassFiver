@@ -1,0 +1,173 @@
+.join__fiver {
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .join__personal {
+    .join__framwork {
+      &:hover {
+        .fiver__just {
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .join__content {
+      a {
+        position: relative;
+      }
+      padding: 0 20px 30px;
+      .fiver__just {
+        background-image: url(../img/designer.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 352px;
+        position: relative;
+        &::before {
+          content: "";
+          background-color: rgba(34, 20, 20, 0.823);
+          opacity: 0;
+          position: absolute;
+          // z-index: 2;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          pointer-events: none;
+          transition: opacity 0.3s;
+        }
+      }
+      .join__contain1 {
+        background-image: url(../img/developer.png);
+        // background-image: url(../img/google_btn.png);
+      }
+      .join__contain2 {
+        background-image: url(../img/Writer.png);
+      }
+      .join__contain3 {
+        background-image: url(../img/videoEditor.png);
+      }
+      .join__contain4 {
+        background-image: url(../img/musician.png);
+      }
+      .join__contain5 {
+        background-image: url(../img/artist.png);
+      }
+      .join__contain6 {
+        background-image: url(../img/marketer.png);
+      }
+      .seller {
+        cursor: pointer;
+        .join__contain7 {
+          background-image: none;
+          background-color: #eee;
+          text-align: center;
+          position: relative;
+        }
+        .join__details2 {
+          i {
+            color: red;
+          }
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &:hover {
+          .join__contain7::before {
+            opacity: 0;
+          }
+        }
+      }
+
+      .join__details {
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+      }
+
+      a.designer {
+        &:hover {
+          .join__contain {
+            background-position: -10% 0;
+          }
+          .join__contain::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.developer {
+        &:hover {
+          .join__contain1 {
+            background-position: -10% 0;
+          }
+          .join__contain1::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.writer {
+        &:hover {
+          .join__contain2 {
+            transform: translateX(5%);
+          }
+          .join__contain2::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.editor {
+        &:hover {
+          .join__contain3 {
+            transform: translateX(5%);
+          }
+          .join__contain3::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.musician {
+        &:hover {
+          .join__contain4 {
+            transform: translateX(5%);
+          }
+          .join__contain4::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.artist {
+        &:hover {
+          .join__contain5 {
+            transform: translateX(5%);
+          }
+          .join__contain5::before {
+            opacity: 0;
+          }
+        }
+      }
+      a.marketer {
+        &:hover {
+          .join__contain6 {
+            transform: translateX(5%);
+          }
+          .join__contain6::before {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    margin: 0 auto;
+    width: 90%;
+    img {
+      width: 295px;
+      height: 304px;
+    }
+  }
+}

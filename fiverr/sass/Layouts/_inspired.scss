@@ -1,0 +1,26 @@
+.inspired{
+    background-color: rgb(245, 245, 245);
+    .inspired__content{
+        
+        width: 95%;
+        margin: 20px auto;
+        .inspired__items{
+            position: relative;
+            img{
+                width: 240px;
+                height: 300px;
+                transition: .5s;
+                &:hover{
+                    opacity: 0.85;
+                }
+            }
+            .inspired__details{
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                background-color: $color-white-0;
+                width: 85%;
+            }
+        }
+    }
+}

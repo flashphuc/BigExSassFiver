@@ -1,0 +1,45 @@
+.learn__fiver {
+  width: 90%;
+  margin: 3rem auto;
+  .learn__contain {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    .learn__content__left {
+      padding: 3rem 0;
+      line-height: 2rem;
+    }
+    .learn__fiver__right {
+      position: relative;
+      i.learn__play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        border: solid 1px white;
+        border-radius: 50%;
+        color: white;
+        background-color: #1413139e;
+      }
+      .learn__fiver__details {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;
+        padding-right: 14rem;
+        color: white;
+        .learn__rating {
+          .learn__rating__star {
+            color: $color-yellow;
+          }
+          .rating__1 {
+            color: $color-yellow;
+          }
+        }
+      }
+    }
+  }
+}
